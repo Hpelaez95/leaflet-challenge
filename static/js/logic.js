@@ -13,11 +13,11 @@ function markersize(magnitude){
 };
 
 function pickingColor(depth){
-    if (depth < 10) return "#00FF00";
-    else if (depth < 30) return "greenyellow";
-    else if (depth < 50) return "yellow";
-    else if (depth < 70) return "orange";
-    else if (depth < 90) return "orangered";
+    if (depth < 10) return "#00ff66";
+    else if (depth < 30) return "#91ff00";
+    else if (depth < 50) return "#eeff00";
+    else if (depth < 70) return "#ffa200";
+    else if (depth < 90) return "#ff5e00";
     else return "#FF0000";
 }
 
